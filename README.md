@@ -29,5 +29,8 @@ python asmr_enhancer.py input.wav --device cuda  # 手动指定 GPU（若可用�
 ## Notes / 备注
 - **EN:** When processing video, the script only swaps the audio track and keeps the original video stream untouched.
 - **ZH:** 处理视频文件时仅替换音轨，画面数据保持不变。
-- **Performance / 性能:** The CLI now shows a live progress bar with real-time throughput and bitrate estimates, making it easy to monitor long renders.
+
+## Speed / 速度
+- **EN:** The speed depends on your hardware performance. Using NVIDIA CUDA can usually speed up the process several times, while using a CPU is slower. The longer the video/audio, the longer the processing time. Typically, processing one hour of content takes 3-5 minutes (using CUDA).
+- **ZH:** 速度取决于你的硬件性能，使用NVIDIA CUDA通常能够将速度加快数倍，而使用CPU则较慢。越长的视频/音频处理时间越长，通常1小时的内容处理时间在3-5分钟（使用CUDA）
 
