@@ -254,7 +254,7 @@ class SubSoothingDynamicShelfCPU:
         self.freq = freq
 
     def process(self, y: np.ndarray) -> np.ndarray:
-        nfft = 1024
+        nfft = 2048
         hop = 480
         win = 1920
         out = np.zeros_like(y)
@@ -431,7 +431,7 @@ class SubSoothingDynamicShelfTorch(_TorchBase):
         self.min_gain = min_gain_db
 
     def process(self, y: torch.Tensor) -> torch.Tensor:
-        nfft = 1024
+        nfft = 2048
         hop = 480
         win = 1920
         window = torch.hann_window(win, device=self.device)
