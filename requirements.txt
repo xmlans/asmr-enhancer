@@ -1,0 +1,5 @@
+librosa>=0.10
+soundfile>=0.12
+numpy>=1.21
+pyloudnorm>=0.1
+scipy>=1.8
