@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-"""ASMR Enhancer
-
-批处理 ASMR 音频/视频：解码→触发器友好降噪→微动态扩展→低频动态塑形→响度校准，
-最后写回音频文件或重新封装视频。默认使用 CPU，但若检测到可用的 CUDA 设备并安装了
-PyTorch，则会自动切换到 GPU；可以通过 ``--device`` 手动指定。
-
-依赖：Python 3.9+、ffmpeg、``requirements.txt`` 中列出的库。
-"""
 from __future__ import annotations
 
 import argparse
