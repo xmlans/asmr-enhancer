@@ -54,9 +54,9 @@ def _detect_device(requested: str | None = None) -> str:
 def _log_device(device: str):
     if device == "cuda":
         name = torch.cuda.get_device_name() if torch is not None else "Unknown"
-        print(f"⚙️  使用 GPU: {name}")
+        print(f"使用 GPU: {name}")
     else:
-        print("⚙️  使用 CPU 处理")
+        print("使用 CPU 处理")
 
 
 # --------------------------- 通用工具 ---------------------------
@@ -583,13 +583,13 @@ def process_file(input_path: str, output_path: str | None, cfg: Settings):
                 "-c:v", "copy", "-c:a", "aac", "-b:a", "320k",
                 out,
             ])
-            print(f"✅ 已输出: {out}")
+            print(f"已输出: {out}")
         else:
             ai = Audio.load(input_path, target_sr=48000)
             ao = enhance_audio(ai, cfg)
             out = output_path or _auto_outname(input_path)
             ao.save(out)
-            print(f"✅ 已输出: {out}")
+            print(f"已输出: {out}")
     finally:
         shutil.rmtree(tmpdir, ignore_errors=True)
 
