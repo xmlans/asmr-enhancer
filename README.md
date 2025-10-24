@@ -32,7 +32,7 @@ python asmr_enhancer.py input.wav --device cuda  # 手动指定 GPU（若可用�
 
 ## Speed / 速度
 - **EN:** The speed depends on your hardware performance. Using NVIDIA CUDA can usually speed up the process several times, while using a CPU is slower. The longer the video/audio, the longer the processing time. Typically, processing one hour of content takes 3-5 minutes (using CUDA).
-- **ZH:** 速度取决于你的硬件性能，使用NVIDIA CUDA通常能够将速度加快数倍，而使用CPU则较慢。越长的视频/音频处理时间越长，通常1小时的内容处理时间在3-5分钟（使用CUDA）
+- **ZH:** 速度取决于你的硬件性能，使用NVIDIA CUDA通常能够将速度加快数倍，而使用CPU则较慢。越长的视频/音频处理时间越长，通常1小时的内容处理时间在3-5分钟（使用CUDA RTX 4070 Super）
 
 ## 测试
 非常感谢星梦ASMR免费资源的所有用户参与本项目的测试，通过测试5组视频和2组音频，并收集一些用户反馈后此声音优化器处理后的asmr文件确实有更好的听觉效果。本测试于2025年10月22日结束 <br>
