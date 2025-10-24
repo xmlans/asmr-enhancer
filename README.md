@@ -36,8 +36,11 @@ python asmr_enhancer.py input.wav --device cuda  # 手动指定 GPU（若可用�
 
 ## 测试
 非常感谢星梦ASMR免费资源的所有用户参与本项目的测试，通过测试5组视频和2组音频，并收集一些用户反馈后此声音优化器处理后的asmr文件确实有更好的听觉效果。本测试于2025年10月22日结束 <br>
-如asmr主题以有人声剧情为主，或为口腔音可获得最佳效果
-
+如asmr主题以有人声剧情为主，或为口腔音可获得最佳效果 <br>
+![Full waveform](results/waveform_full.png) <br>
+此图为测试一组经过处理的ASMR音频数据的整段30分钟音频波形图和未经处理的前后对比 <br>
+![Zoomed waveform](results/waveform_zoom.png) <br>
+此图为截取2秒的经过处理ASMR音频和未经处理的前后对比
 ## Thanks / 感谢
 [星梦ASMR免费资源站](https://www.asmrzy.top) <br>
 [Telegram 星梦ASMR免费资源](https://t.me/asmrzytop) <br>
