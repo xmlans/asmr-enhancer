@@ -44,5 +44,5 @@ python asmr_enhancer.py input.wav --device cuda  # 手动指定 GPU（若可用�
 此图为截取2秒的经过处理ASMR音频和未经处理的前后对比
 ## Thanks / 感谢
 [星梦ASMR免费资源站](https://www.asmrzy.top) <br>
-[Telegram 星梦ASMR免费资源](https://t.me/asmrzytop) <br>
+[Telegram 星梦ASMR资源](https://t.me/xmasmr) <br>
 [FFmpeg](https://ffmpeg.org)
