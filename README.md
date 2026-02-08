@@ -25,7 +25,7 @@ python asmr_enhancer.py input.wav --device cuda  # 手动指定 GPU（若可用�
 ```
 - **EN:** Omit `-o` to let the script auto-name the output. Flags like `--no-gate` allow you to skip individual modules.
 - **ZH:** 如果不指定 `-o` 会自动生成带 `_enh` 后缀的文件名；可以用 `--no-*` 参数分别关闭某个处理模块；使用 `--device` 可强制选择 `cpu`/`cuda` <br>
-不会部署吗，这里还给小白准备了一篇教程 https://www.xmlans.com/develop/asmr-enhancer.html
+不会部署吗，这里还给小白准备了一篇教程 https://www.xmlans.com/develop/asmr-enhancer.html <br>
 This article can help you use: https://en.xmlans.com/develop/asmr-audio-upgrade-open-source-python-tool-asmr-enhancer-released-one-click-denoise-detail-boost/
 
 ## Notes / 备注
